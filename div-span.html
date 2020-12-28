@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Div e Span</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#topo{
+			background: darkblue;
+		}
+		#conteudo{
+			background: lightblue;
+		}
+		.produto{
+			background: gray;
+			margin: 10px;
+		}
+		#rodape{
+			background: lightgreen;
+		}
+		#assinatura{
+			background: pink;
+		}
+		.azul{
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<!--Div's são elementos do tipo block, são organizados um embaixo do outro. Assim como o p para escrever parágrafos -->
+	<div id="topo">
+		<img src="imagens/amazon.png" width="200">
+		<ul>
+			<li>Home</li>
+			<li>Produtos</li>
+			<li>Contato</li>
+		</ul>
+	</div>
+	<div id="conteudo">
+		<div class="produto">Produto 1</div>
+		<div class="produto">Produto 2</div>
+		<div class="produto">Produto 3</div>
+	</div>
+	<div id="rodape">Todos os <span class="azul">direitos</span> reservados</div>
+	<!-- Span's são elementos inline, são organizados um ao lado do outro -->
+	<span id="assinatura">Tatiana</span>
+	<span>Gama</span>
+</body>
+</html>
