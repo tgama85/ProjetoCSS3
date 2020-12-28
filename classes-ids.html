@@ -10,12 +10,37 @@
 		p{
 			color: blue;
 		}
+		/*Classes podem ser usadas mais de uma vez no código*/
 		.azul{
-			color: lightblue;
+			color: red;
+		}
+		/*Id pode ser usado apenas uma vez*/
+		#cabecalho{
+			background: yellow;
 		}
 	</style>
 </head>
-<body>
+<body id="principal">
+
+	<div>
+		
+		<div id="cabecalho">
+			<img src="imagens/logo.png">
+			<ul>
+				<li>Home</li>
+				<li>Quem somos</li>
+				<li>Contato</li>
+			</ul>
+		</div>
+
+		<div id="conteudo-principal">
+			<div class="coluna">Coluna 1</div>
+			<div class="coluna">Coluna 2</div>
+			<div class="coluna">Coluna 3</div>
+		</div>
+
+	</div>
+
 	<h1>Estilo CSS (cascading style sheets)</h1>
 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id dignissim ligula. Phasellus non felis ut elit pharetra fringilla. Sed ut pretium odio, rhoncus blandit diam. Suspendisse consequat a enim id sodales. Nullam pulvinar, magna in efficitur semper, sapien turpis pretium ex, id molestie ex arcu id massa. Maecenas a auctor arcu, a commodo diam. Donec eget consequat tortor. Duis sodales, nisi vel maximus eleifend, mauris quam porttitor quam, a eleifend elit lorem et nisl. 
