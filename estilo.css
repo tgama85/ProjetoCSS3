@@ -1,0 +1,8 @@
+.texto{
+	color: red;
+	background: orange;		
+}
+.fundo{
+	background: url('imagens/cidade-noite.jpg') no-repeat fixed center;
+	background-size: 100%;
+}
