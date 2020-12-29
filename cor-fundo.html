@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Cor e imagem de fundo</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			background-color: lightblue;
+			background-image: url('imagens/ceu-2014.jpg');
+			background-repeat: no-repeat; /* Possui 4 opções: repeat, repeat-x (horizontal), repeat-y (vertical) e no-repeat; */
+			background-attachment: fixed; /* Possui opções: fixed, scroll*/
+			background-position: center; /* É possível mesclar posições fazendo: center center, left center, right center, center top, center bottom, right top, right bottom, left top e left bottom; */
+		}
+
+		.fundo{
+			/* É possível usar um cor e uma imagem ao mesmo tempo usando: background: yellow url ('imagens/nuvens.png') repeat-x scroll left top; */
+			color: #FF0040;
+			background-image: url(imagens/nuvens.png);
+			background-repeat:no-repeat;
+			background-position: left;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="fundo">Conteúdo de título 1</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a elementum diam. Phasellus suscipit commodo tortor ac rutrum. Suspendisse ultricies felis at luctus tincidunt. Morbi ultrices sem eget erat imperdiet aliquam.</p>
+	<br><br><br><br><br><br>
+	<br><br><br><br><br><br>
+	<br><br><br><br><br><br>
+	<br><br><br><br><br><br>
+	<br><br><br><br><br><br>
+	<br><br><br><br><br><br>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a elementum diam. Phasellus suscipit commodo tortor ac rutrum. Suspendisse ultricies felis at luctus tincidunt. Morbi ultrices sem eget erat imperdiet aliquam.</p>
+</body>
+</html>
